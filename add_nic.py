@@ -14,10 +14,10 @@ from pyVim.connect import SmartConnect, Disconnect
 from pyVim.task import WaitForTask
 
 # Define global variables
-VM_LIST = []  # List of VMs where NICs will be added
-VCENTER_HOST = ''  # VCenter IP address
-VCENTER_USER = ''  # VCenter automation user
-VCENTER_PASS = ''  # VCenter automation password
+VM_LIST = []        # List of VMs where NICs will be added
+VCENTER_HOST = ''   # VCenter IP address
+VCENTER_USER = ''   # VCenter automation user
+VCENTER_PASS = ''   # VCenter automation password
 NETWORK_NAME = 'n'  # Network name to attach NICs
 
 # Disable SSL verification (for testing purposes, improve security in production)
